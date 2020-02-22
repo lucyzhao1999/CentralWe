@@ -94,6 +94,7 @@ Inputs:
 Output: Nested dictionary of joint state, joint action, cost/reward
 """
 
+
 class SetupRewardTable2AgentDistanceCost(object):
     def __init__(self, transitionTable, goalStates = [], trapStates = []):
         self.transitionTable = transitionTable
