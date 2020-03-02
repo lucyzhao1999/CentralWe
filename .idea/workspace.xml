@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f328a1-4439-4149-b5fe-a81fde6cdf99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JointMDPSolver.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/JointMDPSolver.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JointMDPSolver.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/grosseJointPlanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/grosseJointPlanner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jointMDPCopy.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualizeJointMDP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testGrosseJointPlanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/testGrosseJointPlanner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizations.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualize/visualizations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualize/draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualize/draw.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +17,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jointMDPCopy.py">
+        <entry file="file://$PROJECT_DIR$/visualizeJointMDP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-390">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#560#785#0" />
+                <element signature="e#851#1356#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testGrosseJointPlanner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualize/initialization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -29,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grosseJointPlanner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="235" selection-start-line="235" selection-end-line="235" />
+            <state relative-caret-position="234">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -41,32 +65,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visualize/draw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3860">
-              <caret line="227" column="38" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#85#87#0" />
-                <element signature="e#9297#9420#0" />
+                <element signature="e#8810#10682#0" />
                 <element signature="e#9941#9959#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_39.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="414">
+              <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visualizations.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/visualize/visualizations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+            <state relative-caret-position="160">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -90,6 +113,7 @@
       <find>pg</find>
       <find>rewardCoords</find>
       <find>array</find>
+      <find>goalState</find>
     </findStrings>
     <replaceStrings>
       <replace>gridNumberY</replace>
@@ -108,12 +132,12 @@
         <option value="$PROJECT_DIR$/JointMDPSolver.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_37.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_38.py" />
-        <option value="$PROJECT_DIR$/testGrosseJointPlanner.py" />
-        <option value="$PROJECT_DIR$/grosseJointPlanner.py" />
         <option value="$PROJECT_DIR$/ValueIteration.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_39.py" />
         <option value="$PROJECT_DIR$/jointMDPCopy.py" />
         <option value="$PROJECT_DIR$/visualize/draw.py" />
+        <option value="$PROJECT_DIR$/testGrosseJointPlanner.py" />
+        <option value="$PROJECT_DIR$/grosseJointPlanner.py" />
       </list>
     </option>
   </component>
@@ -154,6 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/visualize" />
@@ -186,7 +211,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="jointMDPCopy" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="visualizeJointMDP" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CentralWe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,7 +224,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jointMDPCopy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualizeJointMDP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,64 +244,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582068989200</updated>
-      <workItem from="1582068991014" duration="18896000" />
+      <workItem from="1582068991014" duration="19357000" />
+      <workItem from="1582612515817" duration="2783000" />
+      <workItem from="1583109459901" duration="1179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18896000" />
+    <option name="totallyTimeSpent" value="23319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12608069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27089337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32305795" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3292232" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.07891492" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24537608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950678" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292232" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3292232" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32305795" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CentralWe$JointMDPSolver.coverage" NAME="jointMDPCopy Coverage Results" MODIFIED="1582270011010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CentralWe$jointMDPCopy.coverage" NAME="jointMDPCopy Coverage Results" MODIFIED="1583110332671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CentralWe$JointMDPSolver.coverage" NAME="jointMDPCopy Coverage Results" MODIFIED="1582576575362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JointMDPSolver.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JointMDPSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="88" selection-start-line="65" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualize/initialization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_37.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -295,70 +310,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testGrosseJointPlanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2620">
-          <caret line="185" column="33" selection-start-line="185" selection-start-column="33" selection-end-line="185" selection-end-column="33" />
-          <folding>
-            <element signature="e#230#2622#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ValueIteration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1163">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jointMDPCopy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualize/draw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3860">
-          <caret line="227" column="38" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#85#87#0" />
-            <element signature="e#9297#9420#0" />
-            <element signature="e#9941#9959#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grosseJointPlanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="235" selection-start-line="235" selection-end-line="235" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_39.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="414">
+          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualize/initialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualize/draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#8810#10682#0" />
+            <element signature="e#9941#9959#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizeJointMDP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#560#785#0" />
+            <element signature="e#851#1356#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JointMDPSolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGrosseJointPlanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grosseJointPlanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualize/visualizations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

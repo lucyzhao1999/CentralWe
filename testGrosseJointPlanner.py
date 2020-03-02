@@ -14,7 +14,7 @@ class TestTransitionByStateSet2Agent(unittest.TestCase):
         gridWidth = 4
         gridHeight = 4
         self.stateSet4x4 = list(itertools.product(range(gridWidth), range(gridHeight)))
-        self.goalState = (3,3)
+        self.goalState = [(3,3)]
         self.trapState = (0,0)
 
     #create a deterministic transition table for the joint next state of two agents' actions in current state

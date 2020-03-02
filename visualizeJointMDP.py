@@ -49,9 +49,8 @@ def main():
     states = list(itertools.product(range(gridNumberX), range(gridNumberY)))
     actions = [(-1, 0), (0, 1), (1, 0), (0, -1), (0, 0)]
 
-    goals = [(1, 2)]
-    goalState = goals[0]
-    gettransition = SetupDeterministicTransitionByStateSet2Agent(states, actions, goalState)
+    goals = [(1, 2), (2,4)]
+    gettransition = SetupDeterministicTransitionByStateSet2Agent(states, actions, goals)
     transitionTable = gettransition()
 
     getReward = SetupRewardTable2AgentDistanceCost(transitionTable, goals)

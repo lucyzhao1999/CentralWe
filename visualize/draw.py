@@ -1,38 +1,6 @@
 import numpy as np
-from itertools import combinations
 import sys
 import pygame
-#
-# def checkDuplicates(checkingList):
-#     itemCount = len(checkingList)
-#     checkingPairs = list(combinations(range(itemCount), 2))
-#     isSamePair = lambda pairOne, pairTwo: np.all(np.array(pairOne) == np.array(pairTwo))
-#     checkingFilter = [isSamePair(checkingList[i], checkingList[j]) for i, j in checkingPairs]
-#     duplicatePairs = [pair for pair, index in zip(checkingPairs, checkingFilter) if index]
-#     return duplicatePairs
-#
-#
-# class ModifyOverlappingPoints:
-#     def __init__(self, gridPixelSize, checkDuplicates, modificationRatio):
-#         self.gridPixelSize = gridPixelSize
-#         self.modificationRatio = modificationRatio
-#         self.checkDuplicates = checkDuplicates
-#         self.modifyPointAdd = lambda pointLocation: np.array(
-#             pointLocation) + self.gridPixelSize // self.modificationRatio
-#         self.modifyPointMinus = lambda pointLocation: np.array(
-#             pointLocation) - self.gridPixelSize // self.modificationRatio
-#         self.modifyPoints = lambda firstCoor, secondCoor: [self.modifyPointAdd(firstCoor),
-#                                                            self.modifyPointMinus(secondCoor)]
-#
-#     def __call__(self, pointsLocation):
-#         duplicatePointPairs = self.checkDuplicates(pointsLocation)
-#         if len(duplicatePointPairs) != 0:
-#             for pairIndex in duplicatePointPairs:
-#                 firstPointIndex, secondPointIndex = pairIndex
-#                 pointsLocation[firstPointIndex], pointsLocation[secondPointIndex] = self.modifyPoints(
-#                     pointsLocation[firstPointIndex], pointsLocation[secondPointIndex])
-#         return pointsLocation
-#
 
 class DrawCircles:
     def __init__(self, colorList, pointsWidth, pointExtendTime = 100, FPS = 60):
